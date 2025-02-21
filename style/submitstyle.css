@@ -51,14 +51,13 @@ main{
 
 footer{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 620px;
     color: white;
   }
 
-p{
-    display: inline-flex;
-    margin-left: 800px;
-    flex-direction: column;
-    color: white;
-    text-decoration: none;
+p1{
+  margin-left: 750px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }

@@ -55,7 +55,7 @@ footer{
     color: white;
   }
 
-form{
+.form1{
     display: inline-flex;
     margin-left: 800px;
     flex-direction: column;
@@ -63,3 +63,10 @@ form{
     text-decoration: none;
 
   }
+
+.submit{
+  display: inline-flex;
+  margin-left: 810px;
+
+}
+
