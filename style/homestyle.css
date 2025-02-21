@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+}
+
+
+main{
+  margin-right: 10px;
+  margin-left: 10px;
+ 
+}
+
+.banner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
+  height: 150px;
+
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: #1515ca;
+  padding: 0px;
+  margin-left: 700px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.navbar a:hover{
+  background-color: rgb(60, 60, 230);
+}
+
+.navbar li{
+  float: left;
+  
+}
+
+.img1 {
+  height: 350px;
+  width: 350px;
+
+}
+
+
+
+.con1{
+  display: inline-flex;
+  margin-top: 10px;
+  flex-direction: column;
+  border-style: double;
+  
+}
+
+.atb1{
+  width: 100px;
+  margin-left: 130px;
+}
+
+li2{
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  margin-left: 90px;
+  background-color: rgba(202, 202, 202, 0.712);
+}
+
+.con2{
+  display: inline-flex;
+  margin-top: 10px;
+  flex-direction: column;
+  border-style: double;
+  margin-left: 10px;
+}
+
+.con3{
+  display: inline-flex;
+  margin-top: 10px;
+  flex-direction: column;
+  border-style: double;
+  margin-left: 10px;
+}
+
+.con4{
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-weight: bolder;
+  background-color: #1515ca;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  
+}
+
+.p1{
+  font-size: 34px;
+}
+
+.p2{
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.hp1 {
+  text-decoration: none;
+  color: white;
+  
+}
+
+footer{
+  text-align: center;
+  margin-top: 300px;
+  
+}
+
+.con5{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h4{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #1515ca;
+  color: white;
+  padding: 10px;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  width: 1920px;
+  height: 400px;
+  
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width: 350px;
+  height: 350px;
+}

@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  background-color: #1515ca;
+}
+
+
+main{
+  margin-right: 10px;
+  margin-left: 10px;
+ 
+}
+
+.banner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
+  height: 150px;
+
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: #1515ca;
+  padding: 0px;
+  margin-left: 700px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.navbar a:hover{
+  background-color: rgb(60, 60, 230);
+}
+
+.navbar li{
+  float: left;
+  
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+  }
+
+
+h1{
+    text-align: center;
+    
+}
+
+#ta1{
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 10px;
+  
+}
+
+fieldset{
+  margin-top: 10px;
+  width: 30px;
+}
+
+label{
+  color: white;
+}
+
+.format{
+  padding-top: 10px;
+  color: white;
+}
+
+#ub{
+  margin-top: 10px;
+}
+
+.p1{
+  margin-top: 10px;
+}
+
+.wrapper{
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+h1{
+  margin-left: 0px;
+  color: white;
+}
+
+.con1{
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 26px;
+  color: white;
+  margin-left: 30px;
+  
+ 
+}
+
