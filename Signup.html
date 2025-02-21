@@ -26,7 +26,12 @@
             Password:<input type = "password" name = "password" required/>
             Confirm password:<input type = "password" name = "conpassword" required/>
             <br>
-            <input type = "submit" value = "submit">
+            <input type = "submit" value = "submit" onclick="submit()">
+            <script>
+                function submit() {
+                    window.location.href = ""
+                }
+            </script>
 
         </form>
     </main>
