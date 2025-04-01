@@ -1,10 +1,15 @@
+<!--sets the doctype to be html so the device knows to interpret the code in the correct way-->
 <!DOCTYPE html>
 
 <html>
+<!--the head tag used to contain the viewport, link the style sheet for css and diplay a banner on the webpage-->
 <head>
+    <!--sets the viewport to rescale the content based upon the device size-->
     <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
-    <link rel = "stylesheet" type = "text/css" href = "style/customersupportstyle.css">
-    <img src = "img/ToolsNKits.jpg" alt = "Tools N Kits Logo" class="banner">
+    <!--the link tag is used to link the css file to this particular webpage so the style can then be added to the webpage-->
+    <link rel = "stylesheet" type = "text/css" href = "/docs/style/customersupportstyle.css">
+    <!--an img tag used to display the banner on the page-->
+    <img src = "/docs/img/ToolsNKits.jpg" alt = "Tools N Kits Logo" class="banner">
 </head>
 
     
@@ -12,6 +17,7 @@
         
     <nav class = "navbar">
         <ul>
+            <!--a simple navbar that takes the user to different pages based upon the href of the content pressed-->
             <li><a href="index.html">Home Page<a/></li>
             <li><a href="products.html">Products<a/></li>
             <li><a href="customersupport.html">Customer Support<a/></li>
@@ -21,11 +27,15 @@
 
     <main>
         <div class = "wrapper">
+            <!--a form that allows the user to type within a specified area of 30 rows and 70 columns-->
             <form>
                 <fieldset>
                     <textarea id = "ta1" name = "ta1" rows = "30" cols = "70"></textarea>
+                    <!--the br tag indicates that there should be a small gap or break between the content-->
                     <br>
+                    <!--the lable tag simply creates some text upon the webpage to be used for the selectable options-->
                     <label for = "support">please select your issue or enquiry</label>
+                    <!--the select tag is used to give the user multiple different options to select within a dropdown menu on the webpage-->
                     <select name = "support" id = "support" required>
                         <option value = "Account">Account</option>
                         <option value = "Order">Orders</option>
@@ -34,7 +44,7 @@
                     </select> 
                 </fieldset>
             </form>
-            
+            <!--a class used to display a variety of frequently asked questions the user may have on the webpage with breaks inbetween-->
             <div class = "con1">
             <h1>Frequently Asked Questions</h1>
             <p2>How long does delivery usually take? Delivery ranges from 3-7 business days on stardard shipping while premium is within 3 business days maximum</p2>
@@ -52,17 +62,22 @@
             
         <form>
             <div class = "format">
+                <!--the text before the input tag to display to the user before the input tag displays a box that the user can enter their information as well as the required tag to force the user to fill this slot with information before submitting-->
                 Email Address:<input type = "text" name = "email" required/>
                 <br></br>
-                <p1 class = "p1"> the following questions will be used to improve our  services:</p1>
+                <!--a paragraph tag used to display some text to the user-->
+                <p1 class = "p1"> the following questions will be used to improve our services:</p1>
                 <br>
+                <!--a label for the next form element-->
                 <label for "used before">Have you used our services before?</label>
+                <!--another select option to allow the user to select between multiple options-->
                 <select name = "used before" id = "ub">
                     <option value = "No">No</option>
                     <option value = "Yes">Yes</option>
                     <option value = "unsure">Unsure</option>
                 </select>
                 <br></br>
+                <!--another 2 input tag that allows the user to input their own information however this time the field does not have to be filled before submitting as it does not have required tag-->
                 How did you hear about our service?<input type = "text" name = "question"/>
                 <br></br>
                 Were you happy with our services provided if previously used?<input type = "text" name = "rating">
@@ -76,7 +91,7 @@
 
 
 
-
+<!--the footer tag tells the webpage that this information should be at the bottom of the webpage-->
     <footer>
         <p>&copy; 2025 TNK Technologies Ltd.</p>
     </footer>

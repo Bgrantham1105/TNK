@@ -1,6 +1,8 @@
+
 body {
   margin: 0px;
   background-color: #1515ca;
+  overflow-x: hidden; max-width: 100%; width: 100%;
 }
 
 
@@ -14,8 +16,7 @@ main{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 1920px;
-  height: 150px;
+  width: 99%;
 
 }
 
@@ -47,11 +48,7 @@ main{
   
 }
 
-.img1 {
-  height: 350px;
-  width: 350px;
 
-}
 
 
 
@@ -60,7 +57,7 @@ main{
   margin-top: 10px;
   flex-direction: column;
   border-style: double;
-  
+
 }
 
 .atb1{
@@ -123,7 +120,7 @@ li2{
 footer{
   text-align: center;
   margin-top: 300px;
-  
+  color:white
 }
 
 .con5{
@@ -132,12 +129,13 @@ footer{
 }
 
 h4{
-  text-align: center;
+  margin-left: 820px;
   font-size: 30px;
   font-weight: bold;
   background-color: #1515ca;
   color: white;
-  padding: 10px;
+
+
 }
 
 div.scroll-container {
@@ -145,15 +143,15 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
-  width: 1920px;
-  height: 400px;
+  width: 40%;
+  height: auto;
+ 
   
 }
 
 div.scroll-container img {
   padding: 10px;
-  width: 350px;
-  height: 350px;
+  
 }
 
 h3 {

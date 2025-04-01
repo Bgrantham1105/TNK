@@ -1,0 +1,48 @@
+<!--tells the IDE to interpret the code as the html language-->
+<!Doctype html>
+
+<html>
+<!--the head tag is used mostly but not limited to non content parts of the webpage such as linking the style sheet-->
+<head>
+    <!--the meta tag to create the viewport that changes scale based upon the devices width-->
+    <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+    <!--links the css code to the webpage so that the coded style elements can be added-->
+    <link rel = "stylesheet" type = "text/css" href = "/docs/style/signinstyle.css">
+    <img src = "/docs/img/ToolsNKits.jpg" alt = "Tools N Kits Logo" class="banner">
+</head>
+
+    
+<body>
+    <!--a nav tag to tell the webpage that this is a navigation element within the class "navbar" for the css code-->    
+    <nav class = "navbar">
+        <ul>
+            <!--a simple navbar that allows users to change webpage via interactive text elements-->
+            <li><a href="index.html">Home Page<a/></li>
+            <li><a href="products.html">Products<a/></li>
+            <li><a href="customersupport.html">Customer Support<a/></li>
+            <li><a href="signin.html">Sign in<a/></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--a form element to allow the user to input information-->  
+        <form>
+            <!--this element is used to display text to the user and a box to input information in this case the username and it is required-->
+            Username:<input type = "text" name = "user-email" required/>
+            <!--indicates that a break or gap should be added between these elements-->
+            <br>
+            <!--functions the same as the username input element except in this case it is for the password-->
+            Password:<input type = "password" name = "password" required/>
+            <!--a simple navigation element that allows a user to press the text to be transfered to a different webpage-->
+            <a href = "signup.html">Don't have an account?</a>
+        </form>
+    </main>
+
+
+
+
+
+<!--a footer element to display text at the bottom of the webpage-->
+<footer>
+    <p>&copy; 2025 TNK Technologies Ltd.</p>
+</footer>
