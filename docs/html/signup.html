@@ -1,9 +1,14 @@
+<!--tells the IDE to interpret the code as the html language-->
 <!Doctype html>
 
 <html>
+<!--the head tag is used mostly but not limited to non content parts of the webpage such as linking the style sheet-->
 <head>
+    <!--the meta tag to create the viewport that changes scale based upon the devices width-->
     <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+    <!--links the css code to the webpage so that the coded style elements can be added-->
     <link rel = "stylesheet" type = "text/css" href = "/docs/style/signupstyle.css">
+    <!--displays a simple banner using the img tag linking an image-->
     <img src = "/docs/img/ToolsNKits.jpg" alt = "Tools N Kits Logo" class="banner">
 </head>
 
@@ -12,23 +17,29 @@
         
     <nav class = "navbar">
         <ul>
+            <!--a simple navbar that allows users to change webpage via interactive text elements-->
             <li><a href="index.html">Home Page<a/></li>
             <li><a href="products.html">Products<a/></li>
             <li><a href="customersupport.html">Customer Support<a/></li>
             <li><a href="signin.html">Sign in<a/></li>
         </ul>
     </nav>
-
+<!--the main tag tells the website that this content is the main content of the webpage-->
     <main>
+        <!--a from tag with a class to contain the form elements for the signup page-->
         <form class = "form1">
+            <!--a simple input form asking the user to input their email and the field is required-->
             Email:<input type = "text" name = "email" required/>
+            <!--a simple input form asking the user to input their username and the field is required-->
             Username:<input type = "text" name = "username" required/>
+            <!--a simple input form asking the user to input their password and the field is required-->
             Password:<input type = "password" name = "password" required/>
+            <!--a simple input form asking the user to confirm their password again and the field is required-->
             Confirm password:<input type = "password" name = "conpassword" required/>
             <br>
         </form>
     </main>
-
+<!--a simple button made to take you to another webpage informing the user that their information has been submitted-->
     <a class = "submit" href = "submit.html">
         <input type = "submit" value = "submit">
     </a>
@@ -37,7 +48,7 @@
 
 
 
-
+<!--a basic footer tag to tell the webpage that this information should be displayed at the bottom of the page-->
 <footer>
     <p>&copy; 2025 TNK Technologies Ltd.</p>
 </footer>
